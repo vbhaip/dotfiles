@@ -1,12 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+#PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+#export PATH
 
 export PATH="/opt/local/bin:${PATH}"
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Vinay/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -104,3 +104,23 @@ alias matrix='cmatrix -b -C red -s -a -u 3'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/home"
+
+rasp="192.168.200.28"
+
+
+
+#stuff below here is from .bash_profile 
+
+## MacPorts Installer addition on 2016-09-13_at_22:03:46: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+## Finished adapting your PATH environment variable for use with MacPorts.
+export PATH="/usr/local/opt/opencv@2/bin:$PATH"
+#
+##ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
+
+#some homebrew thing
+export PATH="/usr/local/sbin:$PATH"
+
+

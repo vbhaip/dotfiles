@@ -1,0 +1,16 @@
+- defaults:
+  link:
+    relink: true
+
+- clean: ['~']
+- link:
+  ~/.zshrc: .zshrc
+  ~/.vimrc: .vimrc
+  ~/.bash_profile: .bash_profile
+
+- create:
+  - ~/.undodir
+   
+
+- shell: 
+  - [git submodule update --init --recursive, Installing submodules]
