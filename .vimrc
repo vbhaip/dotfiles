@@ -129,3 +129,5 @@ if has('persistent_undo')      "check if your vim version supports it
 	set undofile                 "turn on the feature
 	set undodir=~/.vim/undodir
 	endif
+
+set bg=dark
