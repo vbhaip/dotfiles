@@ -2,3 +2,15 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
+	ignore = dirty
+[submodule "gruvbox"]
+	path = .vim/bundle/gruvbox
+	url = https://github.com/morhetz/gruvbox
+	ignore = dirty
+[submodule "vim-css-color"]
+	path = .vim/bundle/vim-css-color
+	url = https://github.com/ap/vim-css-color
+	ignore = dirty
