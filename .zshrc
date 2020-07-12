@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #Vinay's Custom Commands
-alias cdml='cd ~/Documents/Vinay/CS_Stuff/Machine_Learning'
+#alias cdml='cd ~/Documents/Vinay/CS_Stuff/Machine_Learning'
 alias cdcs='cd ~/Documents/Vinay/CS_Stuff'
 alias matrix='cmatrix -b -C red -s -a -u 3'
 
